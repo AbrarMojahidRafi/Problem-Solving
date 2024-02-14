@@ -1,16 +1,15 @@
 class Solution:
   def climbStairs(self, n):
-    count = 0 
-    sum = 0 
-    i = 0 
-    while (i < n): 
-      if sum == n: 
-        count += 1 
-        break 
-      else: 
-        sum += i
-      i += 1 
-    return count  
+    count = 0
+    
+    array = [1]*n
+    # print(array)
+    count += 1 
+    
+    while ():
+      newArr = []
+    
+    return count 
   
 
 s = Solution()
