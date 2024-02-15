@@ -2,18 +2,19 @@ class Solution:
   def climbStairs(self, n):
     count = 0
     
-    array = [1]*n
-    # print(array)
-    count += 1 
-    
-    while ():
-      newArr = []
+    temp = n
+    while (temp > 0):
+      if temp % 2 == 0:
+        count += temp 
+      else: 
+        count += 2*temp 
+      temp -= 1
     
     return count 
   
 
 s = Solution()
-print(s.climbStairs(3))
+print(s.climbStairs(5))
 
 
 # 7=>21
